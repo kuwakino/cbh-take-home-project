@@ -24,12 +24,12 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 - User Story #100;
 
 ### Acceptance Criteria
-Given the Agent registration form
-When a Facility user input a new custom id
+Given the Agent registration form  
+When a Facility user input a new custom id  
 Then this id is persisted on database
 
-Given the Agent registration form
-When a Facility user input an existent custom id
+Given the Agent registration form  
+When a Facility user input an existent custom id  
 Then a message to the user is returned informing: "Invalid Custom id.".
 
 ### Estimates: 7pt
@@ -46,14 +46,14 @@ Then a message to the user is returned informing: "Invalid Custom id.".
 - Custom id as default, database id if custom id is empty;
 
 ### Acceptance Criteria
-Given a Facility report
-And the custom id set to all Agents
-When a Facility report is generated
+Given a Facility report  
+And the custom id set to all Agents  
+When a Facility report is generated  
 Then the report shows the custom id
 
-Given a Facility report
-And the custom id not set to an Agent
-When a Facility report is generated
+Given a Facility report  
+And the custom id not set to an Agent  
+When a Facility report is generated  
 Then the report shows the database id for that Agent
 
 ### Estimates: 5pt
