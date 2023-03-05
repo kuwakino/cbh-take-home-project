@@ -17,8 +17,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here - Eduardo Kuwakino
 - Requirement:
-> **Currently, the id of each Agent on the reports we generate is their internal database id. We'd like to add the ability for Facilities to save their own custom ids for each Agent they work with and use that id when generating reports for them.**
-- User Story #100: As a Facility user I want to include my own Agent id so that I can easily identify them on reports
+  > **Currently, the id of each Agent on the reports we generate is their internal database id. We'd like to add the ability for Facilities to save their own custom ids for each Agent they work with and use that id when generating reports for them.**
+- **User Story #100**: As a Facility user I want to include my own Agent id so that I can easily identify them on reports
 
 ## Task1: Include a custom id field on Agent registration
 - User Story #100;
@@ -42,7 +42,7 @@ Then a message to the user is returned informing: "Invalid Custom id.".
 
 ## Task2: Update Facilities reports to show custom Agent id as default
 - User Story #100;
-- Depends on: Ticket1
+- Depends on: Ticket1;
 - Custom id as default, database id if custom id is empty;
 
 ### Acceptance Criteria
