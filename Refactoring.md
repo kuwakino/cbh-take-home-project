@@ -8,4 +8,9 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
-## Your Explanation Here
+## Your Explanation Here - Eduardo Kuwakino
+1. Incldued unit tests for code coverage before start refactoring the code;
+2. Simplified if sequence: moved to set `TRIVIAL_PARTITION_KEY` on the closest case: event is null and moved it to the top;
+3. Renamed candidate to keyCandidate to express key generation (and validation);
+4. Extracted call to crypto for readability and DRY the code;
+5. Extracted validation key from base key for readability and possibility to extract into another class (or abstraction layer);
